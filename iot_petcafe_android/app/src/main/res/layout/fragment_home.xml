@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".src.main.home.HomeFragment">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/home_pet_picture_iv"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_pet_feed_bowl"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/home_feed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="사료주기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_pet_picture_iv" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/home_water_to_pet_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="물주기"
+        app:layout_constraintEnd_toEndOf="@+id/home_feed_btn"
+        app:layout_constraintStart_toStartOf="@+id/home_feed_btn"
+        app:layout_constraintTop_toBottomOf="@+id/home_feed_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

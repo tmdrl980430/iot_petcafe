@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_pet_img" android:color="@color/black" android:state_checked="false"/>
+
+    <item android:drawable="@drawable/ic_pet_color_img" android:color="@color/black" android:state_checked="true"/>
+
+
+</selector>
