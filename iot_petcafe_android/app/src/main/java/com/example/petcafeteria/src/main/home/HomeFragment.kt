@@ -25,11 +25,11 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>(FragmentHomeBinding::bind
         // --- Constants to modify per your configuration ---
         // Customer specific IoT endpoint
         // AWS Iot CLI describe-endpoint call returns: XXXXXXXXXX.iot.<region>.amazonaws.com,
-        private const val CUSTOMER_SPECIFIC_ENDPOINT = "a1g1uldeb5uxbm-ats.iot.ap-northeast-2.amazonaws.com"
+        private const val CUSTOMER_SPECIFIC_ENDPOINT = "CUSTOMER_SPECIFIC_ENDPOINT"
 
         // Cognito pool ID. For this app, pool needs to be unauthenticated pool with
         // AWS IoT permissions.
-        private const val COGNITO_POOL_ID = "ap-northeast-2:ce153b8f-b2a0-4e58-935d-821d58be6a21"
+        private const val COGNITO_POOL_ID = "COGNITO_POOL_ID"
 
         // Region of AWS IoT
         private val MY_REGION = Regions.AP_NORTHEAST_2
