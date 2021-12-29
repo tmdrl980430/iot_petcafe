@@ -45,14 +45,14 @@ int posDegrees=0;
 //AWS connection and WIFI connection
 AWS_IOT AWS_CLIENT;
 //WIFI 연결
-//const char* ssid = "House";
-//const char* password = "tkanfkdl98";
-const char* ssid = "Sk's iptime";
-const char* password = "tmdrl1761!";
+//const char* ssid = "WIFI_ID";
+//const char* password = "WIFI_password";
+const char* ssid = "WIFI_ID";
+const char* password = "WIFI_password";
 
 
 //사물연결
-char HOST_ADDRESS[]="a1g1uldeb5uxbm-ats.iot.ap-northeast-2.amazonaws.com";
+char HOST_ADDRESS[]="endpoint.amazonaws.com";
 char CLIENT_ID[]= "Provider";
 
 char* aws_topic = "$aws/things/Provider/shadow/update";
